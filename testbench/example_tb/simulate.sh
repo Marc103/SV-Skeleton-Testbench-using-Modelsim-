@@ -42,7 +42,7 @@ export bindir=""
 vsim -c example_tb -do "run -all; quit" | error_highlighter
 
 # Using the Modelsim OEM bundled with Diamond on Ubuntu 24.04
-# setting up requires first grabbing a free floating license then debugging missing 
+# setting up requires first grabbing a free node locked license then debugging missing 
 # packages that needs to be installed.
 # Make sure you have these lines in your bashrc:
 # export PATH="/usr/local/diamond/3.13/bin/lin64:$PATH" 
